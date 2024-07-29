@@ -82,9 +82,9 @@ public class Main {
 
     public static void ejercicioCasteo8() {
         System.out.println("Casteo: Ejercicio 8");
-        // String str = "Hello";
-        // int intFromStr = (int) str; // Error de compilación, no se puede castear String a int
-        // System.out.println(intFromStr);
+        float floatNum = 12.34f;
+        String floatString = Float.toString(floatNum);
+        System.out.println(floatString); // 12.34
     }
 
     public static void ejercicioCasteo9() {
@@ -96,7 +96,9 @@ public class Main {
 
     public static void ejercicioCasteo10() {
         System.out.println("Casteo: Ejercicio 10");
-        // Implementar tu propio ejercicio aquí
+        byte b = 50;
+        short s = b;
+        System.out.println(s); // 50
     }
 
     // Implementación de los ejercicios de operadores de asignación
